@@ -56,7 +56,6 @@ def help(update, context):
     )
 
 def idade(update, context):
-    """Send a message when the command /help is issued."""
     global current_age, last_checked
     update.message.reply_text(
         f'A idade mínima de vacinação é {current_age} '
